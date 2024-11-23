@@ -1,0 +1,34 @@
+Annotation Guidelines for Sentiment and Job Role Classification.
+
+The purpose of this annotation process is to classify sentences into predefined categories for sentiment analysis and job role identification. This document outlines the definitions, criteria, and best practices for consistent and accurate annotation.
+
+1. Sentiment Classification
+Sentences are annotated based on the sentiment they express. The categories are:
+
+Positive: Expresses favorable, happy, or optimistic sentiments.
+Negative: Reflects unfavorable, critical, or pessimistic sentiments.
+Neutral: Contains objective, factual, or mixed sentiments without strong positivity or negativity.
+
+Examples:
+Positive: "I really love working at this company."
+Negative: "The client meeting was extremely disappointing."
+Neutral: "The report was submitted on time."
+
+
+2. Job Role Classification
+Sentences are labeled with the relevant job role mentioned. The categories are:
+
+Data Scientist
+Data Engineer
+ML Engineer
+
+Examples:
+Data Scientist: "Analyze complex data sets using Python, R, SQL, and machine learning libraries (scikit-learn, TensorFlow) to build predictive models and derive actionable insights."
+Data Engineer: "Design and maintain data pipelines with technologies such as Apache Hadoop, Spark, SQL, Python, and cloud platforms (AWS, GCP, Azure) to ensure efficient data processing and accessibility."
+ML Engineer: "Develop and deploy machine learning models with frameworks like TensorFlow, PyTorch, and Scikit-learn, using tools like Docker, Kubernetes, and AWS for scalable solutions."
+
+
+Annotation Instructions
+Read the Entire Sentence: Ensure you understand the context before assigning labels.
+Annotate Independently: Annotate based on the text alone.
+Use Contextual Clues: Consider phrases and tone for sentiment classification. For job roles, focus on specific keywords and descriptions.
